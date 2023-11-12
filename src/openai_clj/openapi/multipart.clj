@@ -1,4 +1,4 @@
-(ns openai-clj.openapi.multipart
+(ns ^:no-doc openai-clj.openapi.multipart
   (:import (java.io File InputStream)))
 
 (defn- is-multipart-form-data?

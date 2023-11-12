@@ -1,4 +1,4 @@
-(ns openai-clj.openapi.interceptor
+(ns ^:no-doc openai-clj.openapi.interceptor
   (:require [martian.encoders :as encoders]
             [martian.interceptors :as interceptors]))
 

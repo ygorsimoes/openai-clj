@@ -1,4 +1,4 @@
-(ns openai-clj.openapi.header)
+(ns ^:no-doc openai-clj.openapi.header)
 
 (defn- get-api-key
   "Retrieves the API key from the request context. If not found in the context, tries to get it from the system environment."

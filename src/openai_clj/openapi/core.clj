@@ -1,4 +1,4 @@
-(ns openai-clj.openapi.core
+(ns ^:no-doc openai-clj.openapi.core
   (:require [martian.clj-http :as martian-http]
             [martian.core :as martian]
             [openai-clj.openapi.header :as header]

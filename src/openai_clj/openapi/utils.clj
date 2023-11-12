@@ -1,4 +1,4 @@
-(ns openai-clj.openapi.utils
+(ns ^:no-doc openai-clj.openapi.utils
   (:require [martian.core :as martian])
   (:import (java.io File)))
 
