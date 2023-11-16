@@ -44,6 +44,13 @@ your [OpenAI account](https://platform.openai.com/api-keys).
 `OPENAI_ORGANIZATION` (Optional): You can find your organization by accessing
 your [OpenAI account](https://platform.openai.com/account/organization).
 
+Alternatively, you can pass the `:api-key` and/or `:organization` in the options argument of each api function:
+
+```clojure
+{:api-key      "YOUR-API-KEY"
+ :organization "YOUR-ORGANIZATION"}
+```
+
 ## Quickstart
 
 See the full [API Reference](https://cljdoc.org/d/org.clojars.ygorsimoes/openai-clj/0.1.1-SNAPSHOT/api/openai-clj) api
@@ -73,8 +80,8 @@ Alternatively the `api-key` and/or `organization` can be passed in the options a
                                              {:role "user" :content "Who won the world series in 2020?"}
                                              {:role "assistant" :content "The Los Angeles Dodgers won the World Series in 2020."}
                                              {:role "user" :content "Where was it played?"}]
-                              :api-key      "your-api-key"
-                              :organization "your-organization"})
+                              :api-key      "YOUR-API-KEY"
+                              :organization "YOUR-ORGANIZATION"})
 ```
 
 Result:
