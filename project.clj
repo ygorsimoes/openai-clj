@@ -1,4 +1,4 @@
-(defproject org.clojars.ygorsimoes/openai-clj "0.1.0-SNAPSHOT"
+(defproject org.clojars.ygorsimoes/openai-clj "0.1.0"
   :description "A simple, fast, and robust client library for the OpenAI API in Clojure."
   :url "https://github.com/ygorsimoes/openai-clj"
   :license {:name "MIT license"
