@@ -9,19 +9,19 @@ Add the `openai-clj` dependency:
 ### Leiningen/Boot
 
 ```clojure
-[org.clojars.ygorsimoes/openai-clj "0.1.1-SNAPSHOT"]
+[org.clojars.ygorsimoes/openai-clj "0.1.0"]
 ```
 
 ### Clojure CLI/deps.edn
 
 ```clojure
-org.clojars.ygorsimoes/openai-clj {:mvn/version "0.1.1-SNAPSHOT"}
+org.clojars.ygorsimoes/openai-clj {:mvn/version "0.1.0"}
 ```
 
 ### Gradle
 
 ```groovy
-implementation("org.clojars.ygorsimoes:openai-clj:0.1.1-SNAPSHOT")
+implementation("org.clojars.ygorsimoes:openai-clj:0.1.0")
 ```
 
 ### Maven
