@@ -1,6 +1,9 @@
 # openai-clj [![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ygorsimoes/openai-clj.svg)](https://clojars.org/org.clojars.ygorsimoes/openai-clj)
 
-A simple, fast, and robust community-maintained Clojure client library for accessing the OpenAI API.
+A simple, fast and robust Clojure client library for accessing the OpenAI API.
+
+This library is **unofficial**, meaning it is **community-maintained**.
+
 
 # Documentation
 
